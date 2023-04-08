@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #d7d7d7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
+}
+
+header a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+header {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+header p {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+section.hero {
+    text-align:center
+}
+
+section.hero img {
+    position:static;
+    width: 100%;
+}
+
+section.hero h1 {
+    background-color: beige;
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    left: 475px;
+    top: 145px;
+    margin: 0;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+main {
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: repeat(auto);;
+    gap: 20px;
+}
+
+main div.card {
+    background: beige;
+    border-radius: 10px;
+}
+
+main div.card img {
+    border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    margin-left: 175px auto;
+    width: 50%;
+}
+
+main div.card h2 {
+    font-size: 40px;
+    line-height: 0;
+}
+
+main div.card h3 {
+    font-size: 20px;
+}
+
+main div img {
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding: 50px;
+    background-color: beige;
+}
+
